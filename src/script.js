@@ -55,7 +55,7 @@ function init() {
     const loader = new THREE.TextureLoader();
 
     // Planet
-    const texturePlanet = loader.load('./src/assets/saturn.jpg');
+    const texturePlanet = loader.load('/src/assets/saturn.jpg');
     texturePlanet.anisotropy = 16;
     const planetGeometry = new THREE.SphereBufferGeometry(10, 50, 50);
     const planetMaterial = new THREE.MeshLambertMaterial({
@@ -68,7 +68,7 @@ function init() {
 
 
     //Moon
-    const textureMoon = loader.load('./src/assets/moon.jpg');
+    const textureMoon = loader.load('/src/assets/moon.jpg');
     textureMoon.anisotropy = 16;
     let moonGeometry = new THREE.SphereBufferGeometry(2, 32, 32);
     let moonMaterial = new THREE.MeshPhongMaterial({
@@ -81,7 +81,7 @@ function init() {
 
 
     // Sphere Background 
-    const textureSphereBg = loader.load('./src/assets/stars.jpg');
+    const textureSphereBg = loader.load('/src/assets/stars.jpg');
     textureSphereBg.anisotropy = 16;
     const geometrySphereBg = new THREE.SphereBufferGeometry(150, 32, 32);
     const materialSphereBg = new THREE.MeshBasicMaterial({
