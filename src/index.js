@@ -3,6 +3,7 @@ import $ from "jquery"
 import Saturn from "./assets/saturn.jpg"
 import Moon from "./assets/moon.jpg"
 import Stars from "./assets/stars.jpg"
+import Terrain from "./assets/bg.jpg"
 
 let renderer,
     camera,
@@ -98,7 +99,7 @@ function init() {
 
 
     // Terrain
-    const textureTerrain = loader.load();
+    const textureTerrain = loader.load(Terrain);
     textureTerrain.rotation = THREE.MathUtils.degToRad(5);
     terrainGeometry = new THREE.PlaneBufferGeometry(70, 70, 20, 20);
     const terrainMaterial = new THREE.MeshBasicMaterial({
