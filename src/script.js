@@ -1,5 +1,8 @@
 import * as THREE from 'three'
 import $ from "jquery"
+import Saturn from "./assets/saturn.jpg"
+import Moon from "./assets/moon.jpg"
+import Stars from "./assets/stars.jpg"
 
 let renderer,
     camera,
@@ -55,7 +58,7 @@ function init() {
     const loader = new THREE.TextureLoader();
 
     // Planet
-    const texturePlanet = loader.load('/src/assets/saturn.jpg');
+    const texturePlanet = loader.load(Saturn);
     texturePlanet.anisotropy = 16;
     const planetGeometry = new THREE.SphereBufferGeometry(10, 50, 50);
     const planetMaterial = new THREE.MeshLambertMaterial({
@@ -68,7 +71,7 @@ function init() {
 
 
     //Moon
-    const textureMoon = loader.load('/src/assets/moon.jpg');
+    const textureMoon = loader.load(Moon);
     textureMoon.anisotropy = 16;
     let moonGeometry = new THREE.SphereBufferGeometry(2, 32, 32);
     let moonMaterial = new THREE.MeshPhongMaterial({
@@ -81,7 +84,7 @@ function init() {
 
 
     // Sphere Background 
-    const textureSphereBg = loader.load('/src/assets/stars.jpg');
+    const textureSphereBg = loader.load(Stars);
     textureSphereBg.anisotropy = 16;
     const geometrySphereBg = new THREE.SphereBufferGeometry(150, 32, 32);
     const materialSphereBg = new THREE.MeshBasicMaterial({
