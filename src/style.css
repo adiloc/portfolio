@@ -40,3 +40,8 @@ button:hover {
 .top {
   height: 540px;
 }
+
+button:hover {
+    background: #ffffff;
+    color: #000000;
+}

@@ -1,5 +1,6 @@
 import * as THREE from 'three'
 import $ from "jquery"
+
 let renderer,
     camera,
     planet,
