@@ -1,0 +1,18 @@
+/* .intro {
+  display: grid;
+  width: min-content;
+  margin: 0 auto;
+  grid-column-gap: 1em;
+  grid-template-areas:
+  "img title   " 
+  "img subtitle";
+  grid-template-columns: min-content max-content;
+} */
+
+
+h1 {
+  font-size: 57px;
+  letter-spacing: -4px; 
+  font-weight: lighter;
+
+}

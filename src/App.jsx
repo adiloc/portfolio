@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
-import About from "./component/About"
-import Work from "./component/Work"
-import Services from "./component/Services"
+import About from "./components/About"
+import Work from "./components/Work"
+import Services from "./components/Services"
 import './App.css'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
   return (
     
     <div>
-      <div className="nav">
+      <div className="nav fade">
         <button onClick={() => handle(about)}>About</button>
         <button onClick={() => handle(services)}>Services</button>
         <button onClick={() => handle(work)}>Work</button>

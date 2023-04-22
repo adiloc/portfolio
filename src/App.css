@@ -4,15 +4,50 @@ body {
 }
 
 .nav {
+  position: absolute;
+  left: 20px;
+  bottom: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 100px;
-} 
+  width: 100%;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 1rem 0.9em;
+  background: #000000;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: #000000;
+}
+
+.nav button:nth-child(1) {
+  background: #df0d0d;
+}
+.nav button:hover:nth-child(1) {
+  background: #ababab;
+}
+.nav button:hover:nth-child(2),
+.nav button:hover:nth-child(3) {
+  background: #1bdf0d;
+}
+
 
 
 .about,
 .services,
 .work {
-  height: 500px;
-  background: red;
+  height: 100vh;
+  /* background: red; */
 }
