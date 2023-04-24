@@ -89,7 +89,7 @@ function init() {
         fog: false
     });
     planet = new THREE.Mesh(planetGeometry, planetMaterial);
-    planet.position.set(0, 12, -30);
+    planet.position.set(0, 15, -30);
     scene.add(planet);
 
 
@@ -102,7 +102,7 @@ function init() {
         fog: false
     });
     moon = new THREE.Mesh(moonGeometry, moonMaterial);
-    moon.position.set(0, 12, 0);
+    moon.position.set(0, 15, 0);
     scene.add(moon);
 
 
@@ -121,7 +121,7 @@ function init() {
 
 
     // Terrain
-    const textureTerrain = loader.load();
+    const textureTerrain = loader.load("#000000");
     textureTerrain.rotation = THREE.MathUtils.degToRad(5);
     terrainGeometry = new THREE.PlaneBufferGeometry(70, 70, 20, 20);
     const terrainMaterial = new THREE.MeshBasicMaterial({

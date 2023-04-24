@@ -16,7 +16,7 @@ function App() {
  
   return (
     
-    <div>
+    <div className="container">
       <div className="nav fade">
         <button onClick={() => handle(about)}>About</button>
         <button onClick={() => handle(services)}>Services</button>
@@ -31,6 +31,8 @@ function App() {
       <Work 
           work={work}
           />
+        <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+        >Top</button>
     </div>
   )
 }

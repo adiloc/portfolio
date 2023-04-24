@@ -14,7 +14,10 @@ body {
   height: 100vh;
   background-image: url("assets/bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 
 canvas {
   width: 100%;
@@ -32,3 +35,47 @@ canvas {
   height: 100vh;
 }
 
+.nav {
+  position: absolute;
+  right: 10px;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 1.2rem 0.9em;
+  background: #000000;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 120px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: #000000;
+}
+
+button:hover {
+  color: black;
+  background: rgb(186, 186, 186);
+
+}
+.nav button:nth-child(1) {
+  background: #df0d0d;
+}
+.nav button:hover:nth-child(1) {
+  background: #ababab;
+}
+.nav button:hover:nth-child(2),
+.nav button:hover:nth-child(3) {
+  background: #1bdf0d;
+}
