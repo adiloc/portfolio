@@ -1,26 +1,9 @@
-import Skills from './Skills'
-import { icons } from '/src/data.js'
-
-
 export default function About(props) {
-
-  const iconsSkills = icons.map(el => (
-      <Skills 
-          el={el}
-          key={el.id}
-      />
-  ))
-
   return (
      <div className="about" ref={props.about}>
-      <div className="intro">
-        <h1>Adrian Dumitrascu</h1>
-        <h2>A Front-End Developer based in Frankfurt, DE</h2>
-        <div className="flex__container">
-          {iconsSkills}
-        </div>
-        <button>Engage</button>
-      </div>
+        <h1>About Me</h1>
+        <p>I'm a web developer and designer based out of London, UK. I love building apps that solve real-world problems, and that are delightful to use. My specialities include TypeScript, React JS, Tailwind CSS, and Styled Components.</p>
+        <button>My Resume</button>
      </div>
   )
 }

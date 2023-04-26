@@ -1,3 +1,33 @@
+const data = [
+  {
+    name:"Tenzies",
+    description:"A Chrome extension to help you focus and stay up-to-date.",
+    tool:[
+      "HTML",
+      "CSS",
+      "JavaScript", 
+      "React"
+    ],
+    image:"./src/assets/tenzies.png",
+    path:"https://tenzies23.netlify.app/",
+    id: 0
+  },{
+    name:"Movie Watchlist",
+    description:"A Chrome extension to help you focus and stay up-to-date.",
+    tool:[
+      "HTML",
+      "CSS",
+      "JavaScript", 
+      "React",
+      "Mda",
+      "LOL"
+    ],
+    image:"./src/assets/movie-watchlist.png",
+    path:"https://movie-watchlist12.netlify.app/",
+    id: 1
+  }]
+
+
 const icons = [
   {
     name: "JavaScript",
@@ -25,4 +55,4 @@ const icons = [
     color: "#9BB8DC"
   }]
     
-  export { icons }
+  export { data, icons }

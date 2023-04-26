@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  margin: 15px;
+  margin: 20px;
 }
 
 .intro {
@@ -23,6 +23,10 @@ h2 {
   font-weight: lighter;
 }
 
+.about {
+  height: 100vh;
+}
+
 .about button {
   margin-top: 20px;
 }
@@ -31,7 +35,12 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+
+.intro > button {
+  margin: 50px 0;
+  color: red;
 }
 
 .icons {
@@ -39,6 +48,10 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.about,
+.work {
+  border-top: 1px solid rgba(255, 255, 255, 0.258)
 }
 
 .work h3 {
@@ -62,13 +75,64 @@ h2 {
   display: flex;
   align-items: initial;
   flex-direction: column-reverse;
+  margin-bottom: 50px;
 }
 
 .card__text button {
   background: #df0d0d;
+  margin-top: 10px;
 }
 
 .card__box img {
-  max-width: 100%;
-  object-fit: contain;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+span {
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+@media(min-width: 500px) {
+  .container {
+    max-width: 900px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+  .card__box {
+    flex-direction: unset;
+    justify-content: center;
+    margin: 0 30px 100px 30px;
+    border: 1px solid red;
+    gap: 2rem;
+
+  }
+  .card__text p {
+    border: 1px solid red;
+  }
+  .card__box img {
+    border: 1px solid red;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+}
+
+@media(min-width: 800px) {
+
+
 }
