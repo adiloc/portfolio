@@ -8,8 +8,8 @@ const data = [
       "JavaScript", 
       "React"
     ],
-    image:"./src/assets/tenzies.png",
-    site:"https://tenzies23.netlify.app/",
+    image:"assets/tenzies.png",
+    site:"https://tenzies23.netlify.app",
     git:"https://github.com/adidumitrascu/tenzies",
     id: 0
   },{
@@ -22,8 +22,21 @@ const data = [
       "React",
     ],
     image:"./src/assets/movie-watchlist.png",
-    site:"https://movie-watchlist12.netlify.app/",
-    git: "",
+    site:"https://movie-watchlist12.netlify.app",
+    git: "https://github.com/adidumitrascu/movie-watchlist",
+    id: 1
+  },{
+    name:"Twimba",
+    description:"A Chrome extension to help you focus and stay up-to-date.",
+    tool:[
+      "HTML",
+      "CSS",
+      "JavaScript", 
+      "React",
+    ],
+    image:"./src/assets/twimba.png",
+    site:"https://twimba23.netlify.app",
+    git: "https://github.com/adidumitrascu/twimba",
     id: 1
   }]
 
