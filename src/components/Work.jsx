@@ -14,7 +14,7 @@ export default function Work(props) {
 
   return (
      <div className="work" ref={props.work}>
-      <h1>Work</h1>
+      <h2>My Work</h2>
       {cards}
      </div>
   )

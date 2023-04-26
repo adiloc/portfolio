@@ -1,5 +1,7 @@
+import { AiFillGithub } from 'react-icons/ai'
+
 export default function Card(props) {
-  const {name, description, tool, image, path, id} = props.el
+  const {name, description, tool, image, site, git, id} = props.el
 
   const tools = tool.map(el => {
     const keyId = name + el
@@ -17,9 +19,13 @@ export default function Card(props) {
         <ul>
           {tools}
         </ul>
-        <a target="_blank" href={path}>
-        <button>Visit Site</button>
-        </a>
+        <div className="card__links">
+          <a target="_blank" href={site}>
+          <button>Visit Site</button></a>
+          <a target="_blank" href={git} title="Wiew Source Code">
+          <AiFillGithub className="card__git" />
+          </a>
+        </div>
       </div>
       <img src={image}></img>
     </div>

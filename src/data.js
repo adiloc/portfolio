@@ -9,7 +9,8 @@ const data = [
       "React"
     ],
     image:"./src/assets/tenzies.png",
-    path:"https://tenzies23.netlify.app/",
+    site:"https://tenzies23.netlify.app/",
+    git:"https://github.com/adidumitrascu/tenzies",
     id: 0
   },{
     name:"Movie Watchlist",
@@ -19,11 +20,10 @@ const data = [
       "CSS",
       "JavaScript", 
       "React",
-      "Mda",
-      "LOL"
     ],
     image:"./src/assets/movie-watchlist.png",
-    path:"https://movie-watchlist12.netlify.app/",
+    site:"https://movie-watchlist12.netlify.app/",
+    git: "",
     id: 1
   }]
 

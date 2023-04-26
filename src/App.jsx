@@ -42,8 +42,8 @@ function App() {
       />
       <div className="intro">
         <h1>Adrian Dumitrascu</h1>
-        <h2>A Front-End <span>Developer
-          </span> based in <span>Frankfurt</span>, DE</h2>
+        <h3>A Front-End <span>Developer
+          </span> based in <span>Frankfurt</span>, DE</h3>
         <div className="flex__container">
           {iconsSkills}
         </div>
