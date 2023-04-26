@@ -8,7 +8,7 @@ const data = [
       "JavaScript", 
       "React"
     ],
-    image:"public/tenzies.png",
+    image:"tenzies.png",
     site:"https://tenzies23.netlify.app",
     git:"https://github.com/adidumitrascu/tenzies",
     id: 0
@@ -21,7 +21,7 @@ const data = [
       "JavaScript", 
       "React",
     ],
-    image:"public/movie-watchlist.png",
+    image:"movie-watchlist.png",
     site:"https://movie-watchlist12.netlify.app",
     git: "https://github.com/adidumitrascu/movie-watchlist",
     id: 1
@@ -34,7 +34,7 @@ const data = [
       "JavaScript", 
       "React",
     ],
-    image:"public/twimba.png",
+    image:"twimba.png",
     site:"https://twimba23.netlify.app",
     git: "https://github.com/adidumitrascu/twimba",
     id: 1
