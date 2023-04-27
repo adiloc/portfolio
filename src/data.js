@@ -37,7 +37,7 @@ const data = [
     image:"twimba.png",
     site:"https://twimba23.netlify.app",
     git: "https://github.com/adidumitrascu/twimba",
-    id: 1
+    id: 2
   }]
 
 

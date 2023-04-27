@@ -1,58 +1,60 @@
-import { PDFDownloadLink, Page, Text, View, Document, StyleSheet, PDFViewer } from '@react-pdf/renderer';
-
-
-// const styles = StyleSheet.create({
-//   section: {
-//     width: 200,
-//     '@media max-width: 400': {
-//       width: 300,
-//     },
-//     '@media orientation: landscape': {
-//       width: 400,
-//     },
-//   }
-// });
-
-
+import { PDFDownloadLink, Page, Text, Image, Document, StyleSheet, PDFViewer, View } from '@react-pdf/renderer'
 
 export default function Pdf() {
 
   const styles = StyleSheet.create({
-    page: {
-      flexDirection: 'column',
-      backgroundColor: '#E4E4E4'
+    body: {
+      paddingTop: 50,
+      paddingBottom: 65,
+      paddingHorizontal: 50,
+    },
+    header: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+    },
+    name: {
+      fontSize: 28,
+      fontFamily: "Times-Bold",
+    },
+    image: {
+      width: 50,
+      height: 50,
     },
     section: {
-      margin: 10,
-      padding: 10,
-      flexGrow: 1,
+      borderBottom: 1
     }
-  });
+  })
   
   const MyDoc = () => (
     <Document>
-      <Page size="A4" style={styles.page}>
-        <View style={styles.section}>
-          <Text>I'm a web developer and designer based out of London, UK. I love building apps that solve real-world problems, and that are delightful to use. My specialities include TypeScript, React JS, Tailwind CSS, and Styled Components.</Text>
+      <Page size="A4" style={styles.body}>
+        <View style={styles.header}>
+          <View>
+            <Text style={styles.name}>
+              Adrian Mihai Dumitrascu
+            </Text>
+            <Text>
+              Phone Number
+            </Text>
+          </View>
+          <Image style={styles.image} src="/moon.jpg"/>
         </View>
-        <View style={styles.section}>
-          <Text>I'm a web developer and designer based out of London, UK. I love building apps that solve real-world problems, and that are delightful to use. My specialities include TypeScript, React JS, Tailwind CSS, and Styled Components.</Text>
-        </View>
+        <Text style={styles.section}>
+          PROFESSIONAL EXPERIECE
+        </Text>
       </Page>
     </Document>
   );
 
-
   return (
     <div className="pdf">
-    <PDFDownloadLink document={<MyDoc />} fileName="somename.pdf">
-      {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
-    </PDFDownloadLink>
-    <PDFViewer>
-      <MyDoc/>
-    </PDFViewer>
-
-  </div>
+      <PDFDownloadLink document={<MyDoc />} fileName="somename.pdf">
+        {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
+      </PDFDownloadLink>
+      <PDFViewer>
+        <MyDoc/>
+      </PDFViewer>
+    </div>
   )
 }
 
