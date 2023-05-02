@@ -55,10 +55,10 @@ function App() {
       <About
         about={about}
       />
-      <Contact
+      {/* <Contact
         contact={contact}
-      />
-      <Pdf />
+      /> */}
+      
       <button onClick={topBtn}>Top</button>
       <Footer />
     </div>
