@@ -10,7 +10,6 @@ export default function Card(props) {
     )
   })
 
-
   return (
     <div className="card__box">
       <div className="card__text">

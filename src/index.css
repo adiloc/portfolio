@@ -87,10 +87,22 @@ button:hover {
 .nav button:nth-child(1) {
   background: #df0d0d;
 }
+.nav button:nth-child(3) {
+  color: black;
+  background: #bababa;
+}
+
 .nav button:hover:nth-child(1) {
   background: #ababab;
 }
-.nav button:hover:nth-child(2),
+.nav button:hover:nth-child(2) {
+  background: green;
+}
+
 .nav button:hover:nth-child(3) {
-  background: #1bdf0d;
+  background: #df0d0d;
+}
+
+.about__btn button:nth-child(2) {
+  background: green;
 }

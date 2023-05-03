@@ -1,8 +1,6 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa"
 import { SiTypescript, SiJavascript } from "react-icons/si"
 
-
-
 export default function Skills(props) {
   const {name, id, color} = props.el
   

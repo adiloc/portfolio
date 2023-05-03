@@ -1,30 +1,21 @@
 import { useState, useRef, useEffect } from 'react'
-import About from "./components/About"
+import { lazy } from 'react'
 import Work from "./components/Work"
-import Skills from './components/Skills'
 import Nav from './components/Nav'
-import Contact from './components/Contact'
+import Home from './components/Home'
 import Footer from './components/Footer'
-import Pdf from './components/Pdf'
-import { icons } from './data.js'
 import './App.css'
 
-
+const About = lazy(() => import('./components/About'));
 
 function App() {
 
   const [about, setAbout] = useState(useRef(null))
   const [work, setWork] = useState(useRef(null))
-  const [contact, setContact] = useState(useRef(null))
-
-  const iconsSkills = icons.map(el => (
-    <Skills 
-        el={el}
-        key={el.id}
-    />
-  ))
+  const [home, setHome] = useState(useRef(null))
 
   function handle(ref){
+    console.log(ref)
     ref.current.scrollIntoView({ behavior: "smooth" })
   }
 
@@ -42,17 +33,12 @@ function App() {
         handle={handle}
         about={about}
         work={work}
+        home={home}
       />
       <div className="container">
-        <div className="intro">
-          <h1>Adrian Dumitrascu</h1>
-          <h3>A Front-End <span>Developer
-            </span> based in <span>Frankfurt</span>, DE</h3>
-          <div className="flex__container">
-            {iconsSkills}
-          </div>
-          <button onClick={() => handle(contact)}>Engage</button>
-        </div>
+        <Home
+          home={home}
+        />
         <Work 
           work={work}
         />
