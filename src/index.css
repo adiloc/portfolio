@@ -89,7 +89,7 @@ button:hover {
 }
 .nav button:nth-child(3) {
   color: black;
-  background: #bababa;
+  background: #909090;
 }
 
 .nav button:hover:nth-child(1) {
@@ -101,6 +101,7 @@ button:hover {
 
 .nav button:hover:nth-child(3) {
   background: #df0d0d;
+  color: #f1f1f1;
 }
 
 .about__btn button:nth-child(2) {
