@@ -5,13 +5,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  
 }
 
 #root {
   background: #0000009e;
   box-shadow: 0px -100px 180px 0 #000000b5;
-  
 }
 
 body {
@@ -23,7 +21,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
 
 canvas {
@@ -67,7 +64,7 @@ button {
   text-transform: uppercase;
 }
 
-.container > button {
+.top__btn {
   position: fixed;
   right: 0;
   bottom: 0;

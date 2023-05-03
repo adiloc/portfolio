@@ -6,7 +6,6 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 40px;
-
 }
 
 .intro {
@@ -28,8 +27,6 @@ body {
 h2 {
   font-size: 2.2rem;
   font-weight: 400;
-  /* margin-bottom: 1em;
-  font-weight: 400; */
 }
 
 h2::after {
@@ -53,17 +50,14 @@ p {
   color: #aeadad;
 }
 
-/* .about {
-  height: 100vh;
-} */
-
 .flex__about {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 0 auto;
+  /* width: 100%; */
+  /* margin: 0 auto; */
   align-items: center;
   justify-content: center;
+  gap: 50px;
 }
 .me__img {
   max-width: 300px;
@@ -73,11 +67,17 @@ p {
   margin-top: 20px;
 }
 
-.resume__btn {
-  text-decoration: none;
-  color: red;
-
+.about__btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 60px;
 }
+
+.about__btn button {
+  margin: 0;
+}
+
 .flex__container {
   display: flex;
   justify-content: center;
@@ -153,7 +153,11 @@ span {
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
+  padding: 20px;
+  border-top: 1px solid #ffffff22;
+  margin-top: 100px;
 }
 
 iframe {
@@ -184,5 +188,12 @@ iframe {
   .intro h3 {
     direction: rtl;
     margin-right: 250px;
+  }
+  .flex__about {
+    flex-direction: unset;
+  }
+  .about__btn {
+    flex-direction: unset;
+    justify-content: center;
   }
 }

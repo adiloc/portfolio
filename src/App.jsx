@@ -13,7 +13,6 @@ import './App.css'
 
 function App() {
 
-  
   const [about, setAbout] = useState(useRef(null))
   const [work, setWork] = useState(useRef(null))
   const [contact, setContact] = useState(useRef(null))
@@ -33,34 +32,37 @@ function App() {
     window.scrollTo({top: 0, behavior: 'smooth'})
   }
  
+  function email() {
+    window.location = "mailto:adrian.mihai.dumitrascu@gmail.com"
+  }
+
   return (
-    <div className="container">
+    <div>
       <Nav 
         handle={handle}
         about={about}
         work={work}
       />
-      <div className="intro">
-        <h1>Adrian Dumitrascu</h1>
-        <h3>A Front-End <span>Developer
-          </span> based in <span>Frankfurt</span>, DE</h3>
-        <div className="flex__container">
-          {iconsSkills}
+      <div className="container">
+        <div className="intro">
+          <h1>Adrian Dumitrascu</h1>
+          <h3>A Front-End <span>Developer
+            </span> based in <span>Frankfurt</span>, DE</h3>
+          <div className="flex__container">
+            {iconsSkills}
+          </div>
+          <button onClick={() => handle(contact)}>Engage</button>
         </div>
-        <button onClick={() => handle(contact)}>Engage</button>
+        <Work 
+          work={work}
+        />
+        <About
+          about={about}
+          btn={email}
+        />
       </div>
-      <Work 
-        work={work}
-      />
-      <About
-        about={about}
-      />
-      {/* <Contact
-        contact={contact}
-      /> */}
-      
-      <button onClick={topBtn}>Top</button>
       <Footer />
+      <button className="top__btn" onClick={topBtn}>Top</button>
     </div>
   )
 }

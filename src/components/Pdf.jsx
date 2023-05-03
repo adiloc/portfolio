@@ -77,6 +77,10 @@ export default function Pdf() {
       right: 0,
       textAlign: 'center',
       color: 'grey'
+    },
+    btn: {
+      textDecoration: "none",
+      color: "red"
     }
   });
   
@@ -238,7 +242,7 @@ export default function Pdf() {
   
   return (
     <div className="pdf">
-      <PDFDownloadLink document={<MyDoc />} fileName="adrian_dumitrascu_CV.pdf">
+      <PDFDownloadLink style={styles.btn} document={<MyDoc />} fileName="adrian_dumitrascu_CV.pdf">
       My resume
       </PDFDownloadLink>
         {/* {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')} */}
