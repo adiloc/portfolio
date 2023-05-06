@@ -1,8 +1,8 @@
-import { useState, useRef, useEffect } from 'react'
-import { lazy } from 'react'
+import { useState, useRef, lazy } from 'react'
 import Work from "./components/Work"
 import Nav from './components/Nav'
 import Home from './components/Home'
+import Pdf from './components/Pdf'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -15,7 +15,6 @@ function App() {
   const [home, setHome] = useState(useRef(null))
 
   function handle(ref){
-    console.log(ref)
     ref.current.scrollIntoView({ behavior: "smooth" })
   }
 
@@ -42,6 +41,7 @@ function App() {
         <Work 
           work={work}
         />
+        <Pdf/>
         <About
           about={about}
           btn={email}

@@ -34,7 +34,7 @@ h2::after {
   display: block;
   height: 3px;
   width: 68px;
-  background: #9d1212;
+  background: #e9cb07;
   margin: 9px 0;
 }
 
@@ -86,7 +86,6 @@ p {
 
 .home > button {
   margin: 50px 0;
-  color: red;
 }
 
 .icons {
@@ -116,7 +115,8 @@ p {
 }
 
 .card__text button {
-  background: #df0d0d;
+  background: #c6288c;
+  color: black;
 }
 
 .card__links {

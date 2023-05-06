@@ -49,6 +49,23 @@ canvas {
   gap: 3px;
 }
 
+.top__btn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 0;
+}
+
+.top__btn:hover {
+  background:#b0b0b0;
+  color: black;
+}
+
 button {
   border: 1px solid white;
   border-radius: 5px;
@@ -64,46 +81,65 @@ button {
   text-transform: uppercase;
 }
 
-.top__btn {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  margin: 10px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  padding: 0;
+button:hover {
+  color: rgb(216, 216, 216);
+  background: #000000;
 }
 
-button:hover {
-  color: #000000;
-}
-
-button:hover {
+.nav button:nth-child(1),
+.nav button:nth-child(2) {
   color: black;
-  background: #bababa;
 }
+
 .nav button:nth-child(1) {
-  background: #df0d0d;
+  background: #e9cb07;
+}
+.nav button:nth-child(2) {
+  background: #dc4ba8;
 }
 .nav button:nth-child(3) {
-  color: black;
-  background: #909090;
+  color: #e2e2e2;
+  background: #0c0c0c;
+}
+
+.nav button:hover:nth-child(1),
+.nav button:hover:nth-child(2) {
+  color: #ffd500;
 }
 
 .nav button:hover:nth-child(1) {
-  background: #ababab;
+  background: #0b27dc;
 }
+
 .nav button:hover:nth-child(2) {
-  background: green;
+  background: #009437;
 }
 
 .nav button:hover:nth-child(3) {
-  background: #df0d0d;
-  color: #f1f1f1;
+  background: #979797;
+  color: #0c0c0c;
+}
+
+.about__btn button:nth-child(1) {
+  background: #131313;
+  color: #0c0c0c; 
 }
 
 .about__btn button:nth-child(2) {
-  background: green;
+  background: #d1b605;
+  color: #0c0c0c;
+}
+
+.about__btn button:hover:nth-child(2) {
+  background: #0a23c4;
+  color: #ffd500;
+}
+
+.resume__btn {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+.resume__btn:hover {
+  color: #dc4ba8;
 }
