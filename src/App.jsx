@@ -2,11 +2,10 @@ import { useState, useRef, lazy } from 'react'
 import Work from "./components/Work"
 import Nav from './components/Nav'
 import Home from './components/Home'
-import Pdf from './components/Pdf'
 import Footer from './components/Footer'
 import './App.css'
 
-const About = lazy(() => import('./components/About'));
+const About = lazy(() => import('./components/About'))
 
 function App() {
 
@@ -41,7 +40,7 @@ function App() {
         <Work 
           work={work}
         />
-        <Pdf/>
+        {/* <Pdf /> */}
         <About
           about={about}
           btn={email}
