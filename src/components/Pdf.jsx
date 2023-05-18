@@ -245,9 +245,9 @@ export default function Pdf() {
       <PDFDownloadLink className="resume__btn" document={<MyDoc />} fileName="adrian_dumitrascu_CV.pdf">
       My resume
       </PDFDownloadLink>
-      {/* <PDFViewer>
+      <PDFViewer>
         <MyDoc/>
-      </PDFViewer> */}
+      </PDFViewer>
     </div>
   )
 }
