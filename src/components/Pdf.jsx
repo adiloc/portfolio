@@ -1,4 +1,5 @@
-import { PDFDownloadLink, Page, Text, Link, Font, Document, StyleSheet, PDFViewer, View } from '@react-pdf/renderer'
+import { PDFDownloadLink, Page, Image, Text, Link, Font, Document, StyleSheet, PDFViewer, View } from '@react-pdf/renderer'
+import me from "/me.png"
 
 export default function Pdf() {
 
@@ -21,7 +22,8 @@ export default function Pdf() {
     },
     p_color: {
       fontSize: 12,
-      color: "#9b9b9b"
+      color: "#9b9b9b",
+      marginTop: 4
     },
     header: {
       paddingTop: 35,
@@ -82,6 +84,14 @@ export default function Pdf() {
       right: 0,
       textAlign: 'center',
       color: 'grey'
+    },
+    image: {
+      width: 120,
+      height: 120,
+      borderRadius: 100,
+      marginTop: 30,
+      marginLeft: "auto",
+      marginRight: "auto"
     }
   });
   
@@ -95,10 +105,9 @@ export default function Pdf() {
       <Page style={styles.page} size="A4">
         <View style={styles.row}>
           <View style={styles.left}>
+            <Image style={styles.image} src={me}/>
             <View style={styles.section}>
-              <Text style={styles.h3}>
-                Contact
-              </Text>
+              <Text style={styles.h3}>Contact</Text>
               <View style={styles.left_sub_sec}>
                 <Link style={styles.link} href={"mailto:adrian.mihai.dumitrascu@gmail.com"}>adrian.mihai.dumitrascu@gmail.com
                 </Link>
@@ -106,7 +115,10 @@ export default function Pdf() {
               <View style={styles.left_sub_sec}>
                 <Text style={styles.p}>
                 www.linkedin.com/in/adrian-mihai-dumitrascu
-                <Link style={styles.link} href={"https://www.linkedin.com/in/adrian-mihai-dumitrascu"}> (LinkedIn)</Link>
+                <Link style={styles.link} href={"https://www.linkedin.com/in/adrian-mihai-dumitrascu"}>(LinkedIn)</Link>
+                {"\n"}
+                {"\n"}
+                www.github.com/adidumitrascu <Link style={styles.link} href={"https://www.github.com/adidumitrascu"}>(GitHub)</Link>
                 </Text>
               </View>
             </View>
@@ -146,9 +158,9 @@ export default function Pdf() {
                   Freelance {"\n"}
                   Frontend developer {"\n"}
                   May 2020 - Present (3 years) {"\n"}
+                </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
-                </Text>
                 </Text>
               </View>
               <View style={styles.right_sub_sec}>
@@ -156,9 +168,9 @@ export default function Pdf() {
                   Adrian Dumitrascu Photography {"\n"}
                   Professional Photographer {"\n"}
                   January 2013 - May 2020 (7 years 5 months) {"\n"}
+                </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
-                </Text>
                 </Text>
               </View>
               <View style={styles.right_sub_sec}>
@@ -166,9 +178,9 @@ export default function Pdf() {
                   First Design Bucharest {"\n"}
                   Graphic Designer {"\n"}
                   September 2009 - January 2013 (3 years 5 months) {"\n"}
+                </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
-                </Text>
                 </Text>
                <View style={styles.description}>
                 <Text>
@@ -186,9 +198,9 @@ export default function Pdf() {
                   National TV Broadcaster (PRO TV) {"\n"}
                   Audio Technician Assistant {"\n"}
                   June 2008 - June 2009 (1 year 1 month) {"\n"}
+                </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
-                </Text>
                 </Text>
                 <View style={styles.description}>
                   <Text>
@@ -203,9 +215,9 @@ export default function Pdf() {
                   National TV Broadcaster (Antena 1) {"\n"}
                   Technical Director {"\n"}
                   November 2006 - June 2008 (1 year 8 months) {"\n"}
+                </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
-                </Text>
                 </Text>
                 <View style={styles.description}>
                   <Text>
@@ -250,7 +262,7 @@ export default function Pdf() {
       </PDFViewer>
     </div>
   )
-}
+} 
 
 
 
