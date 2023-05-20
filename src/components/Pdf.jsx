@@ -1,4 +1,4 @@
-import { PDFDownloadLink, Page, Image, Text, Link, Font, Document, StyleSheet, PDFViewer, View } from '@react-pdf/renderer'
+import { PDFDownloadLink, Page, Image, Text, Link, Document, StyleSheet, PDFViewer, View } from '@react-pdf/renderer'
 import me from "/me.png"
 
 export default function Pdf() {
@@ -24,6 +24,12 @@ export default function Pdf() {
       fontSize: 12,
       color: "#9b9b9b",
       marginTop: 4
+    },
+    p_location: {
+      color: "#9d800c",
+      fontSize: 10,
+      fontFamily: "Helvetica-Bold",
+      marginTop: 10
     },
     header: {
       paddingTop: 35,
@@ -93,12 +99,8 @@ export default function Pdf() {
       marginLeft: "auto",
       marginRight: "auto"
     }
-  });
+  })
   
-  Font.register(
-    'https://fonts.gstatic.com/s/oswald/v13/Y_TKV6o8WovbUd3m_X9aAA.ttf',
-    { family: 'Oswald' },
-  );
   
   const MyDoc = () => (
     <Document>
@@ -133,6 +135,7 @@ export default function Pdf() {
               <View>
                 <Text style={styles.h1}>Adrian Dumitrascu</Text>
                 <Text style={styles.p}>Software Engineer / Frontend Developer</Text>
+                <Text style={styles.p_location}>It Works! Global</Text>
                 <Text style={styles.p_color}>Frankfurt, Hesse, Germany</Text>
               </View>
             </View>
