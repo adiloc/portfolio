@@ -1,7 +1,7 @@
 const data = [
   {
     name:"Tenzies",
-    description:"A Chrome extension to help you focus and stay up-to-date.",
+    description:"This is a TENZI dice game built in ReactJS functional components.The purpose of this game is to get all dices with the same value.",
     tool:[
       "HTML",
       "CSS",
