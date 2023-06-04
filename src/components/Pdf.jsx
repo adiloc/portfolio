@@ -139,7 +139,7 @@ export default function Pdf() {
                 <Text style={styles.p_color}>Frankfurt, Hesse, Germany</Text>
               </View>
             </View>
-            <View style={styles.section}>
+            {/* <View style={styles.section}>
               <Text style={styles.h2}>
                 Summary
               </Text>
@@ -151,7 +151,7 @@ export default function Pdf() {
               <Text>
                 ____
               </Text>
-            </View>
+            </View> */}
             <View style={styles.section}>
               <Text style={styles.h2}>
                 Experience
@@ -160,17 +160,17 @@ export default function Pdf() {
                 <Text>
                   Freelance {"\n"}
                   Frontend developer {"\n"}
-                  May 2020 - Present (3 years) {"\n"}
+                  May 2022 - Present {"\n"}
                 </Text>
                 <Text style={styles.p_color}>
-                  Bucharest, Romania
+                  Frankfurt, Germany
                 </Text>
               </View>
               <View style={styles.right_sub_sec}>
                 <Text>
                   Adrian Dumitrascu Photography {"\n"}
                   Professional Photographer {"\n"}
-                  January 2013 - May 2020 (7 years 5 months) {"\n"}
+                  January 2013 - May 2022 {"\n"}
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
@@ -180,7 +180,7 @@ export default function Pdf() {
                 <Text>
                   First Design Bucharest {"\n"}
                   Graphic Designer {"\n"}
-                  September 2009 - January 2013 (3 years 5 months) {"\n"}
+                  September 2009 - January 2013 {"\n"}
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
@@ -200,7 +200,7 @@ export default function Pdf() {
                 <Text>
                   National TV Broadcaster (PRO TV) {"\n"}
                   Audio Technician Assistant {"\n"}
-                  June 2008 - June 2009 (1 year 1 month) {"\n"}
+                  June 2008 - June 2009 {"\n"}
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
@@ -217,7 +217,7 @@ export default function Pdf() {
                 <Text style={styles.break}>
                   National TV Broadcaster (Antena 1) {"\n"}
                   Technical Director {"\n"}
-                  November 2006 - June 2008 (1 year 8 months) {"\n"}
+                  November 2006 - June 2008 {"\n"}
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania

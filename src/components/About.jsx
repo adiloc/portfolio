@@ -9,7 +9,7 @@ export default function About(props) {
         <div className="flex__about">
             <img className="me__img" src={me}/>
             <div>
-               <p>I'm a web developer and designer based out of London, UK. I love building apps that solve real-world problems, and that are delightful to use. My specialities include TypeScript, React JS, Tailwind CSS, and Styled Components.
+               <p>I'm a Frontend developer based out of Frankfurt, Germany. I enjoy building  interactive web apps that solve real-world problems, and that are delightful to use. My area of expertise consists of React JS, with a solid grip of the fundamentals of web development using HTML5, CSS3, and JavaScript(ES6+).
                </p>
                <div className="about__btn">
                   <button><Pdf /></button>
