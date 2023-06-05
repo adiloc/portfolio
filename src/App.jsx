@@ -41,7 +41,7 @@ function App() {
         <Work 
           work={work}
         />
-        <Pdf />
+        {/* <Pdf /> */}
         <About
           about={about}
           btn={email}

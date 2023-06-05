@@ -134,7 +134,7 @@ export default function Pdf() {
             <View style={styles.header}>
               <View>
                 <Text style={styles.h1}>Adrian Dumitrascu</Text>
-                <Text style={styles.p}>Software Engineer / Frontend Developer</Text>
+                <Text style={styles.p}>Frontend Developer</Text>
                 <Text style={styles.p_location}>It Works! Global</Text>
                 <Text style={styles.p_color}>Frankfurt, Hesse, Germany</Text>
               </View>
@@ -165,6 +165,13 @@ export default function Pdf() {
                 <Text style={styles.p_color}>
                   Frankfurt, Germany
                 </Text>
+               <View style={styles.description}>
+                <Text>
+                  • Build applications & UI/UX according to specifications and designs. {"\n"}
+                  • Implement responsive web design principles to ensure applications render well on various devices and screen sizes. {"\n"}
+                  • Research new technologies and approaches to solve problems and improve existing systems. {"\n"}
+                </Text>
+               </View>
               </View>
               <View style={styles.right_sub_sec}>
                 <Text>
@@ -241,7 +248,7 @@ export default function Pdf() {
               </Text>
               <View style={styles.right_sub_sec}>
                 <Text>
-                  Universitatea „Spiru Haret” din București {"\n"}
+                  USH Bucharest Architecture {"\n"}
                   Bachelor's degree, Architecture · (October 2005)
                 </Text>
               </View>
@@ -260,9 +267,9 @@ export default function Pdf() {
       <PDFDownloadLink className="resume__btn" document={<MyDoc />} fileName="adrian_dumitrascu_CV.pdf">
       My resume
       </PDFDownloadLink>
-      <PDFViewer>
+      {/* <PDFViewer>
         <MyDoc/>
-      </PDFViewer>
+      </PDFViewer> */}
     </div>
   )
 } 
