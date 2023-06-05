@@ -6,8 +6,8 @@ export default function Pdf() {
   const styles = StyleSheet.create({
   
     h1: {
-      fontSize: 25,
-      paddingBottom: 10
+      fontSize: 30,
+      paddingBottom: 3
     },
     h2: {
       fontSize: 16,
@@ -126,7 +126,7 @@ export default function Pdf() {
             </View>
             <View style={styles.section}>
               <Text style={styles.h3}>Top Skills</Text>
-              <Text style={styles.skills}>JavaScript(ES6+) {"\n"} React.js {"\n"} CSS3 {"\n"} REST APIs {"\n"} HTML5 {"\n"} BootStrap {"\n"} TypeScript {"\n"} Adobe Creative Suite
+              <Text style={styles.skills}>JavaScript(ES6+) {"\n"} React {"\n"} CSS {"\n"} REST APIs {"\n"} HTML {"\n"} BootStrap {"\n"} TypeScript {"\n"} Adobe Creative Suite
               </Text>
             </View>
           </View>
@@ -134,32 +134,18 @@ export default function Pdf() {
             <View style={styles.header}>
               <View>
                 <Text style={styles.h1}>Adrian Dumitrascu</Text>
-                <Text style={styles.p}>Frontend Developer</Text>
+                <Text style={styles.h2}>Front-end Developer</Text>
                 <Text style={styles.p_location}>It Works! Global</Text>
                 <Text style={styles.p_color}>Frankfurt, Hesse, Germany</Text>
               </View>
             </View>
-            {/* <View style={styles.section}>
-              <Text style={styles.h2}>
-                Summary
-              </Text>
-              <Text style={styles.p}>
-                Self-taught frontend developer, knowledgeable in REACT, CSS and
-                HTML5 with solid background in design and passionate about user
-                experience.
-              </Text>
-              <Text>
-                ____
-              </Text>
-            </View> */}
             <View style={styles.section}>
               <Text style={styles.h2}>
                 Experience
               </Text>
               <View style={styles.right_sub_sec}>
                 <Text>
-                  Freelance {"\n"}
-                  Frontend developer {"\n"}
+                  Front-end Developer {"\n"}
                   May 2022 - Present {"\n"}
                 </Text>
                 <Text style={styles.p_color}>
@@ -273,6 +259,3 @@ export default function Pdf() {
     </div>
   )
 } 
-
-
-
