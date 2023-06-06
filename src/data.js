@@ -1,6 +1,6 @@
 const data = [
   {
-    name:"Tenzies Dice Game",
+    name:"Tenzies",
     description:"This is a TENZI dice game built in React functional components. The purpose of this game is to get all dices with the same value.",
     tool:[
       "HTML",
@@ -14,7 +14,7 @@ const data = [
     id: 0
   },{
     name:"Movie Watchlist",
-    description:"A searching movie app where you can add movies you want to watch. It fetches data using APIs.",
+    description:"A searching movie app where you can add movies you want to watch. It fetches data using REST APIs.",
     tool:[
       "HTML",
       "CSS",
@@ -26,8 +26,8 @@ const data = [
     git: "https://github.com/adidumitrascu/movie-watchlist",
     id: 1
   },{
-    name:"Twimba Clone",
-    description:"This is a clone of Twitter made with vanilla JavaScript(ES6+) with the ability to allow users to delete a tweet.",
+    name:"Twimba",
+    description:"This is the main layout of an Twitter clone. It is built using vanilla JavaScript(ES6+) with the ability to allow users to delete a tweet.",
     tool:[
       "HTML",
       "CSS",

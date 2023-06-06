@@ -38,6 +38,7 @@ export default function Pdf() {
     section: {
       paddingTop: 30,
       paddingLeft: 20,
+      paddingRight: 10,
       fontSize: 12
     },
     description: {
@@ -151,13 +152,13 @@ export default function Pdf() {
                 <Text style={styles.p_color}>
                   Frankfurt, Germany
                 </Text>
-               <View style={styles.description}>
-                <Text>
-                  • Build applications & UI/UX according to specifications and designs. {"\n"}
-                  • Implement responsive web design principles to ensure applications render well on various devices and screen sizes. {"\n"}
-                  • Research new technologies and approaches to solve problems and improve existing systems. {"\n"}
-                </Text>
-               </View>
+                <View style={styles.description}>
+                  <Text>
+                    • Build applications & UI/UX according to specifications and designs. {"\n"}
+                    • Implement responsive web design principles to ensure applications render well on various devices and screen sizes. {"\n"}
+                    • Research new technologies and approaches to solve problems and improve existing systems. {"\n"}
+                  </Text>
+                </View>
               </View>
               <View style={styles.right_sub_sec}>
                 <Text>

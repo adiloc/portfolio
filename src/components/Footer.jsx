@@ -1,4 +1,5 @@
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+
 export default function Footer() {
   
   const style = {fill: "white", width: 40, height: 40}
