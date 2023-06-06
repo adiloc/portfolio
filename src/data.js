@@ -1,7 +1,7 @@
 const data = [
   {
     name:"Tenzies Dice Game",
-    description:"This is a TENZI dice game built in ReactJS functional components. The purpose of this game is to get all dices with the same value.",
+    description:"This is a TENZI dice game built in React functional components. The purpose of this game is to get all dices with the same value.",
     tool:[
       "HTML",
       "CSS",
