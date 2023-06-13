@@ -117,11 +117,15 @@ export default function Pdf() {
               </View>
               <View style={styles.left_sub_sec}>
                 <Text style={styles.p}>
-                www.linkedin.com/in/adrian-mihai-dumitrascu
-                <Link style={styles.link} href={"https://www.linkedin.com/in/adrian-mihai-dumitrascu"}>(LinkedIn)</Link>
+                adriandumitrascu.com
+                <Link style={styles.link} href={"https://adriandumitrascu.com"}>(Website)</Link>
                 {"\n"}
                 {"\n"}
-                www.github.com/adidumitrascu <Link style={styles.link} href={"https://www.github.com/adidumitrascu"}>(GitHub)</Link>
+                linkedin.com/in/adrian-mihai-dumitrascu
+                <Link style={styles.link} href={"https://linkedin.com/in/adrian-mihai-dumitrascu"}>(LinkedIn)</Link>
+                {"\n"}
+                {"\n"}
+                github.com/adidumitrascu<Link style={styles.link} href={"https://github.com/adidumitrascu"}>(GitHub)</Link>
                 </Text>
               </View>
             </View>
