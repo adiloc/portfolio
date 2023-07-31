@@ -37,6 +37,20 @@ const data = [
     site:"https://twimba23.netlify.app",
     git: "https://github.com/adidumitrascu/twimba",
     id: 2
+  },{
+    name:"Shopping Cart Webapp",
+    description:"This is the main layout of an Twitter clone. It is built using vanilla JavaScript(ES6+) with the ability to allow users to delete a tweet.",
+    tool:[
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Firebase" 
+    ],
+    image:"shopping-cart.png",
+    site:"https://shopping-cart-b854d4.netlify.app/",
+    git: "https://github.com/adidumitrascu/twimba",
+    id: 3
   }]
 
 
