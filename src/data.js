@@ -39,7 +39,7 @@ const data = [
     id: 2
   },{
     name:"My Shopping Bag",
-    description:"Web application shopping list using HTML, CSS and JavaScript + Firebase. Firebase is a database service that lets you easily make realtime apps.",
+    description:"Mobile app shopping list using HTML, CSS and JavaScript + Firebase. Firebase is a database service that lets you easily make realtime apps.",
     tool:[
       "HTML",
       "CSS",
