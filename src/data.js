@@ -72,7 +72,7 @@ const icons = [
     id: 3,
     color: "#2992C9"
   },{
-    name: "BootStrap",
+    name: "Bootstrap",
     id: 4,
     color: "#7110EF"
   },{
