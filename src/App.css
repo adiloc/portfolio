@@ -120,6 +120,11 @@ p {
   color: black;
 }
 
+.card__text button:hover {
+  color: rgb(216, 216, 216);
+  background: #000000;
+}
+
 .card__links {
   display: flex;
   align-items: end;
