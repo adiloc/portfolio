@@ -73,7 +73,7 @@ button {
   padding: 1.2rem 0.9em;
   background: #000000;
   color: white;
-  -webkit-font-smoothing: antialiased;
+  /* -webkit-font-smoothing: antialiased; */
   font-weight: bold;
   cursor: pointer;
   transition: all 0.5s;
