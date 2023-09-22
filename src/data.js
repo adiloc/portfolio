@@ -5,7 +5,6 @@ const data = [
     tool:[
       "HTML",
       "CSS",
-      "JavaScript", 
       "React"
     ],
     image:"tenzies.png",
