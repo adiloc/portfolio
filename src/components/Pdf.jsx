@@ -131,7 +131,7 @@ export default function Pdf() {
             </View>
             <View style={styles.section}>
               <Text style={styles.h3}>Top Skills</Text>
-              <Text style={styles.skills}>JavaScript(ES6+) {"\n"} React {"\n"} CSS {"\n"} REST APIs {"\n"} HTML {"\n"} BootStrap {"\n"} TypeScript {"\n"} Adobe Creative Suite
+              <Text style={styles.skills}>JavaScript(ES6+) {"\n"} React {"\n"} CSS {"\n"} REST APIs {"\n"} HTML {"\n"} BootStrap {"\n"} TypeScript
               </Text>
             </View>
           </View>
@@ -158,9 +158,10 @@ export default function Pdf() {
                 </Text>
                 <View style={styles.description}>
                   <Text>
-                    • Build applications & UI/UX according to specifications and designs. {"\n"}
-                    • Implement responsive web design principles to ensure applications render well on various devices and screen sizes. {"\n"}
-                    • Research new technologies and approaches to solve problems and improve existing systems. {"\n"}
+                    • Developed and optimized front-end features for multiple websites. {"\n"}
+                    • Create standards-compliant (HTML, CSS, JS), cross-browser-compatible (Chrome, Safari, Firefox) (desktop, tablet and mobile devices) web app components. {"\n"}
+                    • Enhanced stability and performance by refactoring legacy code and monitoring web application performance. {"\n"}
+                    • Developed NodeJS and Express-based APIs, and created books directory and email sender systems using React, Redis, and MongoDB. {"\n"}
                   </Text>
                 </View>
               </View>
