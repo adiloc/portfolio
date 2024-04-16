@@ -159,7 +159,7 @@ export default function Pdf() {
                 <View style={styles.description}>
                   <Text>
                     • Developed and optimized front-end features for multiple websites. {"\n"}
-                    • Create standards-compliant (HTML, CSS, JS), cross-browser-compatible (Chrome, Safari, Firefox) (desktop, tablet and mobile devices) web app components. {"\n"}
+                    • Created standards-compliant (HTML, CSS, JS), cross-browser-compatible (Chrome, Safari, Firefox) (desktop, tablet and mobile devices) web app components. {"\n"}
                     • Enhanced stability and performance by refactoring legacy code and monitoring web application performance. {"\n"}
                     • Developed NodeJS and Express-based APIs, and created books directory and email sender systems using React, Redis, and MongoDB. {"\n"}
                   </Text>
