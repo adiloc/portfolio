@@ -99,6 +99,9 @@ export default function Pdf() {
       marginTop: 30,
       marginLeft: "auto",
       marginRight: "auto"
+    },
+    years: {
+      fontSize: 10
     }
   })
   
@@ -151,7 +154,9 @@ export default function Pdf() {
               <View style={styles.right_sub_sec}>
                 <Text>
                   Front-end Developer {"\n"}
-                  May 2022 - Present {"\n"}
+                  <Text style={styles.years}>
+                    2022 - Present {"\n"}
+                  </Text>
                 </Text>
                 <Text style={styles.p_color}>
                   Frankfurt, Germany
@@ -159,7 +164,7 @@ export default function Pdf() {
                 <View style={styles.description}>
                   <Text>
                     • Developed and optimized front-end features for multiple websites. {"\n"}
-                    • Created standards-compliant (HTML, CSS, JS), cross-browser-compatible (Chrome, Safari, Firefox) (desktop, tablet and mobile devices) web app components. {"\n"}
+                    • Created standards-compliant (HTML, CSS, JavaScript), cross-browser-compatible (Chrome, Safari, Firefox) (desktop, tablet and mobile devices) web app components. {"\n"}
                     • Enhanced stability and performance by refactoring legacy code and monitoring web application performance. {"\n"}
                     • Developed NodeJS and Express-based APIs, and created books directory and email sender systems using React, Redis, and MongoDB. {"\n"}
                   </Text>
@@ -167,9 +172,10 @@ export default function Pdf() {
               </View>
               <View style={styles.right_sub_sec}>
                 <Text>
-                  Adrian Dumitrascu Photography {"\n"}
-                  Professional Photographer {"\n"}
-                  January 2013 - May 2022 {"\n"}
+                  Adrian Dumitrascu Photography | Professional Photographer {"\n"}
+                  <Text style={styles.years}>
+                    2014 - 2022 {"\n"}
+                  </Text>
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
@@ -177,9 +183,10 @@ export default function Pdf() {
               </View>
               <View style={styles.right_sub_sec}>
                 <Text>
-                  First Design Bucharest {"\n"}
-                  Graphic Designer {"\n"}
-                  September 2009 - January 2013 {"\n"}
+                  First Design Bucharest | Graphic Designer {"\n"}
+                  <Text style={styles.years}>
+                    2010 - 2014 {"\n"}
+                  </Text>
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
@@ -197,9 +204,10 @@ export default function Pdf() {
               </View>
               <View style={styles.right_sub_sec}>
                 <Text>
-                  National TV Broadcaster (PRO TV) {"\n"}
-                  Audio Technician Assistant {"\n"}
-                  June 2008 - June 2009 {"\n"}
+                  National TV Broadcaster (PRO TV) | Audio Technician Assistant {"\n"}
+                  <Text style={styles.years}>
+                    2008 - 2010 {"\n"}
+                  </Text>
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
@@ -214,9 +222,10 @@ export default function Pdf() {
               </View>
               <View style={styles.right_sub_sec} break>
                 <Text style={styles.break}>
-                  National TV Broadcaster (Antena 1) {"\n"}
-                  Technical Director {"\n"}
-                  November 2006 - June 2008 {"\n"}
+                  National TV Broadcaster (Antena 1) | Technical Director {"\n"}
+                  <Text style={styles.years}>
+                    2006 - 2008
+                  </Text>
                 </Text>
                 <Text style={styles.p_color}>
                   Bucharest, Romania
@@ -241,7 +250,7 @@ export default function Pdf() {
               <View style={styles.right_sub_sec}>
                 <Text>
                   USH Bucharest Architecture {"\n"}
-                  Bachelor's degree, Architecture · (October 2005)
+                  Bachelor's degree, Architecture · 2005
                 </Text>
               </View>
             </View>
