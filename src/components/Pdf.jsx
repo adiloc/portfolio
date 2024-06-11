@@ -250,7 +250,10 @@ export default function Pdf() {
               <View style={styles.right_sub_sec}>
                 <Text>
                   USH Bucharest Architecture {"\n"}
-                  Bachelor's degree, Architecture · 2010
+                  Bachelor's degree, Architecture · 
+                  <Text style={styles.years}>
+                    2010
+                  </Text>
                 </Text>
               </View>
             </View>
