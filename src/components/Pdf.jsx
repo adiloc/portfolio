@@ -174,7 +174,7 @@ export default function Pdf() {
                 <Text>
                   Adrian Dumitrascu Photography | Professional Photographer {"\n"}
                   <Text style={styles.years}>
-                    2014 - 2022 {"\n"}
+                    2016 - 2022 {"\n"}
                   </Text>
                 </Text>
                 <Text style={styles.p_color}>
@@ -185,7 +185,7 @@ export default function Pdf() {
                 <Text>
                   First Design Bucharest | Graphic Designer {"\n"}
                   <Text style={styles.years}>
-                    2010 - 2014 {"\n"}
+                    2013 - 2016 {"\n"}
                   </Text>
                 </Text>
                 <Text style={styles.p_color}>
@@ -206,7 +206,7 @@ export default function Pdf() {
                 <Text>
                   National TV Broadcaster (PRO TV) | Audio Technician Assistant {"\n"}
                   <Text style={styles.years}>
-                    2008 - 2010 {"\n"}
+                    2011 - 2013 {"\n"}
                   </Text>
                 </Text>
                 <Text style={styles.p_color}>
@@ -224,7 +224,7 @@ export default function Pdf() {
                 <Text style={styles.break}>
                   National TV Broadcaster (Antena 1) | Technical Director {"\n"}
                   <Text style={styles.years}>
-                    2006 - 2008
+                    2009 - 2011
                   </Text>
                 </Text>
                 <Text style={styles.p_color}>
@@ -250,7 +250,7 @@ export default function Pdf() {
               <View style={styles.right_sub_sec}>
                 <Text>
                   USH Bucharest Architecture {"\n"}
-                  Bachelor's degree, Architecture · 2005
+                  Bachelor's degree, Architecture · 2010
                 </Text>
               </View>
             </View>
