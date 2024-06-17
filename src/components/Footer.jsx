@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <div className="footer">
-      <a target="_blank" href="https://github.com/adidumitrascu">
+      <a target="_blank" href="https://github.com/adiloc">
       <AiFillGithub style={style} />
       </a>
       <a target="_blank" href="https://www.linkedin.com/in/adrian-mihai-dumitrascu">
