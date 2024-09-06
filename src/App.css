@@ -177,6 +177,7 @@ iframe {
   .home h3 {
     text-align: center;
   }
+}
 
 @media (min-width: 800px) {
   .card__box {
