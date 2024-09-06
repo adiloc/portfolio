@@ -1,5 +1,18 @@
 const data = [
   {
+    name:"Stuttgart Gophers",
+    description:"This is the website of the Stuttgart Gophers meetup. The scope of the site is to provide information about the meetup and the events.",
+    tool:[
+      "HTML",
+      "Tailwind",
+      "JavaScript",
+      "Go"
+    ],
+    image:"stuttgart-gophers.png",
+    site:"https://stuttgart-gophers.de/",
+    git:"https://github.com/Stuttgart-Gophers",
+    id: 0
+  },{
     name:"Tenzies",
     description:"This is a TENZI dice game built in React functional components. The purpose of this game is to get all dices with the same value.",
     tool:[
@@ -24,19 +37,21 @@ const data = [
     site:"https://movie-watchlist12.netlify.app",
     git: "https://github.com/adidumitrascu/movie-watchlist",
     id: 1
-  },{
-    name:"Twimba",
-    description:"This is the main layout of an Twitter clone. It is built using vanilla JavaScript(ES6+) with the ability to allow users to delete a tweet.",
-    tool:[
-      "HTML",
-      "CSS",
-      "JavaScript", 
-    ],
-    image:"twimba.png",
-    site:"https://twimba23.netlify.app",
-    git: "https://github.com/adidumitrascu/twimba",
-    id: 2
-  },{
+  }
+  // {
+  //   name:"Twimba",
+  //   description:"This is the main layout of an Twitter clone. It is built using vanilla JavaScript(ES6+) with the ability to allow users to delete a tweet.",
+  //   tool:[
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript", 
+  //   ],
+  //   image:"twimba.png",
+  //   site:"https://twimba23.netlify.app",
+  //   git: "https://github.com/adidumitrascu/twimba",
+  //   id: 2
+  // }
+  ,{
     name:"My Shopping Bag",
     description:"Mobile app shopping list using HTML, CSS and JavaScript + Firebase. Firebase is a database service that lets you easily make realtime apps.",
     tool:[
@@ -71,13 +86,17 @@ const icons = [
     id: 3,
     color: "#2992C9"
   },{
-    name: "Bootstrap",
+    name: "NextJS",
     id: 4,
-    color: "#7110EF"
+    color: "#F1F1F1"
   },{
     name: "TypeScript",
     id: 5,
     color: "#9BB8DC"
-  }]
+  },{
+    name: "Tailwind",
+    id: 6,
+    color: "#34B7F0"
+}]
     
   export { data, icons }

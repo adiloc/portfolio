@@ -128,13 +128,34 @@ export default function Pdf() {
                 <Link style={styles.link} href={"https://linkedin.com/in/adrian-mihai-dumitrascu"}>(LinkedIn)</Link>
                 {"\n"}
                 {"\n"}
-                github.com/adidumitrascu<Link style={styles.link} href={"https://github.com/adidumitrascu"}>(GitHub)</Link>
+                github.com/adidumitrascu<Link style={styles.link} href={"https://github.com/adiloc"}>(GitHub)</Link>
                 </Text>
               </View>
             </View>
             <View style={styles.section}>
               <Text style={styles.h3}>Top Skills</Text>
-              <Text style={styles.skills}>JavaScript(ES6+) {"\n"} React {"\n"} CSS {"\n"} REST APIs {"\n"} HTML {"\n"} BootStrap {"\n"} TypeScript
+              <Text style={styles.skills}>
+                JavaScript(ES6+) 
+                {"\n"} 
+                React 
+                {"\n"} 
+                CSS 
+                {"\n"} 
+                REST APIs 
+                {"\n"} 
+                HTML 
+                {"\n"}
+                Tailwind
+                {"\n"} 
+                BootStrap 
+                {"\n"}
+                TypeScript
+                {"\n"}
+                NodeJs
+                {"\n"}
+                Redis
+                {"\n"}
+                MongoDB
               </Text>
             </View>
           </View>
@@ -144,7 +165,7 @@ export default function Pdf() {
                 <Text style={styles.h1}>Adrian Dumitrascu</Text>
                 <Text style={styles.h2}>Front-end Developer</Text>
                 <Text style={styles.p_location}>It Works! Global</Text>
-                <Text style={styles.p_color}>Frankfurt, Hesse, Germany</Text>
+                <Text style={styles.p_color}>Bucharest, Romania</Text>
               </View>
             </View>
             <View style={styles.section}>
@@ -159,7 +180,7 @@ export default function Pdf() {
                   </Text>
                 </Text>
                 <Text style={styles.p_color}>
-                  Frankfurt, Germany
+                  Bucharest, Romania
                 </Text>
                 <View style={styles.description}>
                   <Text>

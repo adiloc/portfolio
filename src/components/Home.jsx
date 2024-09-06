@@ -14,7 +14,7 @@ export default function Home(props) {
     <div className="home" ref={props.home}>
       <h1>Adrian Dumitrascu</h1>
       <h3>A Front-End <span>Developer
-        </span> based in <span>Frankfurt</span>, Germany</h3>
+        </span> based in <span>Bucharest</span>, Romania</h3>
       <div className="flex__container">
         {iconsSkills}
       </div>

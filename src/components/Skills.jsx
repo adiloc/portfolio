@@ -1,5 +1,5 @@
-import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa"
-import { SiTypescript, SiJavascript } from "react-icons/si"
+import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa";
+import { SiTypescript, SiJavascript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export default function Skills(props) {
   const {name, id, color} = props.el
@@ -9,8 +9,9 @@ export default function Skills(props) {
     FaReact, 
     FaHtml5, 
     FaCss3Alt, 
-    FaBootstrap,
-    SiTypescript
+    SiNextdotjs,
+    SiTypescript,
+    SiTailwindcss
   ]
   const Icons = iconsArray[id]
   return (
