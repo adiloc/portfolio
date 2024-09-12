@@ -23,7 +23,7 @@ const data = [
     image:"tenzies.png",
     site:"https://tenzies23.netlify.app",
     git:"https://github.com/adidumitrascu/tenzies",
-    id: 0
+    id: 1
   },{
     name:"Movie Watchlist",
     description:"A searching movie app where you can add movies you want to watch. It fetches data using REST APIs.",
@@ -36,7 +36,7 @@ const data = [
     image:"movie-watchlist.png",
     site:"https://movie-watchlist12.netlify.app",
     git: "https://github.com/adidumitrascu/movie-watchlist",
-    id: 1
+    id: 2
   }
   // {
   //   name:"Twimba",
@@ -49,7 +49,7 @@ const data = [
   //   image:"twimba.png",
   //   site:"https://twimba23.netlify.app",
   //   git: "https://github.com/adidumitrascu/twimba",
-  //   id: 2
+  //   id: 3
   // }
   ,{
     name:"My Shopping Bag",
@@ -64,7 +64,7 @@ const data = [
     image:"shopping-cart.png",
     site:"https://shopping-cart-b854d4.netlify.app/",
     git: "https://github.com/adidumitrascu/shopping-cart-app",
-    id: 3
+    id: 4
   }]
 
 

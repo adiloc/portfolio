@@ -41,12 +41,14 @@ canvas {
 
 .nav {
   position: absolute;
-  right: 10px;
-  bottom: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
   gap: 3px;
+  left: 50%;
+  bottom: 10vh;
+  transform: translateX(-50%);
 }
 
 .top__btn {
@@ -136,4 +138,210 @@ button {
 
 .resume__btn:hover {
   color: #d1d1d1;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.home {
+  padding: 100px 0;
+}
+
+.home h1 {
+  font-size: 3.1rem;
+  letter-spacing: -0.06em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.home h3 {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 68px;
+  background: #e9cb07;
+  margin: 9px 0;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #aeadad;
+}
+
+.flex__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.me__img {
+  max-width: 300px;
+}
+
+.about button {
+  margin-top: 20px;
+}
+
+.about__btn {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  gap: 2px;
+  margin-top: 60px;
+}
+
+.about__btn button {
+  margin: 0;
+}
+
+.flex__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.home > button {
+  margin: 50px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about,
+.work {
+  border-top: 1px solid #ffffff42;
+  padding-top: 50px;
+}
+
+.work ul {
+  padding-left: 15px;
+  line-height: 28px;
+  color: #c7c7c7;
+}
+
+.card__box {
+  display: flex;
+  align-items: initial;
+  flex-direction: column-reverse;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.card__text button {
+  background: #c6288c;
+  color: black;
+}
+
+.card__text button:hover {
+  color: rgb(216, 216, 216);
+  background: #000000;
+}
+
+.card__links {
+  display: flex;
+  align-items: end;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.card__git {
+  width: 35px;
+  height: 35px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.card__git:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.card__box img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+span {
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-top: 1px solid #ffffff22;
+  margin-top: 100px;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .home h3 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .card__box {
+    flex-direction: unset;
+    gap: 2rem;
+  }
+  .home h3 {
+    direction: rtl;
+    margin-right: 250px;
+  }
+  .flex__container {
+    margin: 150px 0;
+  }
+  .flex__about {
+    flex-direction: unset;
+  }
+  .about__btn {
+    flex-direction: unset;
+    justify-content: center;
+  }
+  .card__box img {
+    max-width: 65%;
+  }
+  .nav {
+    flex-direction: row;
+    bottom: 3vh; 
+    gap: 6px;
+    bottom: 3vh;
+  }
 }

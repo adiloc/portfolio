@@ -288,7 +288,7 @@ export default function Pdf() {
   
   return (
     <div className="pdf">
-      <PDFDownloadLink className="resume__btn" document={<MyDoc />} fileName="adrian_dumitrascu_CV.pdf">
+      <PDFDownloadLink className="resume__btn" document={<MyDoc />} fileName="Adrian_Dumitrascu_CV.pdf">
       My resume
       </PDFDownloadLink>
       {/* <PDFViewer>
