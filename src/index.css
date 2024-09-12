@@ -6,6 +6,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
 
 #root {
   background: #0000009e;
