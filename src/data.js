@@ -1,7 +1,7 @@
 const data = [
   {
     name:"Stuttgart Gophers",
-    description:"This is the website of the Stuttgart Gophers meetup. The scope of the site is to provide information about the meetup and the events.",
+    description:"This website is the official hub for the Stuttgart Gophers meetup, offering detailed information about the group's mission, events, and ways to participate. It keeps the community informed about upcoming meetups, networking opportunities, and Go programming-related activities, helping members stay engaged and connected.",
     tool:[
       "HTML",
       "Tailwind",
@@ -13,47 +13,33 @@ const data = [
     git:"https://github.com/Stuttgart-Gophers",
     id: 0
   },{
-    name:"Tenzies",
-    description:"This is a TENZI dice game built in React functional components. The purpose of this game is to get all dices with the same value.",
+    name:"Swift Play",
+    description:"This Swift Play game is built with React functional components using hooks like useState and useEffect for efficient state management. The goal is to roll the dice until all show the same value. Optimized re-rendering ensures smooth performance, providing an interactive and responsive gameplay experience.",
     tool:[
       "HTML",
       "CSS",
       "React"
     ],
-    image:"tenzies.png",
+    image:"swift-play.png",
     site:"https://tenzies23.netlify.app",
     git:"https://github.com/adidumitrascu/tenzies",
     id: 1
   },{
-    name:"Movie Watchlist",
-    description:"A searching movie app where you can add movies you want to watch. It fetches data using REST APIs.",
+    name:"Cinema Picks",
+    description:"An intuitive movie discovery platform that allows users to curate a personalized watchlist by adding films of interest. The app integrates with external data sources, fetching comprehensive movie details in real-time via RESTful APIs to enhance the user experience.",
     tool:[
       "HTML",
       "CSS",
       "JavaScript", 
       "REST APIs"
     ],
-    image:"movie-watchlist.png",
+    image:"cinema-picks.png",
     site:"https://movie-watchlist12.netlify.app",
     git: "https://github.com/adidumitrascu/movie-watchlist",
     id: 2
-  }
-  // {
-  //   name:"Twimba",
-  //   description:"This is the main layout of an Twitter clone. It is built using vanilla JavaScript(ES6+) with the ability to allow users to delete a tweet.",
-  //   tool:[
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript", 
-  //   ],
-  //   image:"twimba.png",
-  //   site:"https://twimba23.netlify.app",
-  //   git: "https://github.com/adidumitrascu/twimba",
-  //   id: 3
-  // }
-  ,{
-    name:"My Shopping Bag",
-    description:"Mobile app shopping list using HTML, CSS and JavaScript + Firebase. Firebase is a database service that lets you easily make realtime apps.",
+  },{
+    name:"Shopping List Manager",
+    description:"Developed a dynamic mobile shopping list application using HTML, CSS, and JavaScript, with real-time data synchronization powered by Firebase. Firebase, a cloud-based NoSQL database service,  ensuring that users' shopping lists were consistently in sync across devices.",
     tool:[
       "HTML",
       "CSS",
@@ -61,7 +47,7 @@ const data = [
       "Bootstrap",
       "Firebase" 
     ],
-    image:"shopping-cart.png",
+    image:"shopping-list.png",
     site:"https://shopping-cart-b854d4.netlify.app/",
     git: "https://github.com/adidumitrascu/shopping-cart-app",
     id: 4

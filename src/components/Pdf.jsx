@@ -2,7 +2,7 @@ import { PDFDownloadLink, Page, Image, Text, Link, Document, StyleSheet, PDFView
 import me from "/me.png"
 
 export default function Pdf() {
-
+  
   const styles = StyleSheet.create({
   
     h1: {
@@ -102,6 +102,10 @@ export default function Pdf() {
     },
     years: {
       fontSize: 10
+    },
+    forcePageBreak: {
+      marginTop: 30,
+      break: 'before', // Ensures this paragraph starts on a new page
     }
   })
   
@@ -128,7 +132,7 @@ export default function Pdf() {
                 <Link style={styles.link} href={"https://linkedin.com/in/adrian-mihai-dumitrascu"}>(LinkedIn)</Link>
                 {"\n"}
                 {"\n"}
-                github.com/adidumitrascu<Link style={styles.link} href={"https://github.com/adiloc"}>(GitHub)</Link>
+                github.com/adiloc<Link style={styles.link} href={"https://github.com/adiloc"}>(GitHub)</Link>
                 </Text>
               </View>
             </View>
@@ -186,8 +190,8 @@ export default function Pdf() {
                   <Text>
                     • Developed and optimized front-end features for multiple websites. {"\n"}
                     • Created standards-compliant (HTML, CSS, JavaScript), cross-browser-compatible (Chrome, Safari, Firefox) (desktop, tablet and mobile devices) web app components. {"\n"}
-                    • Enhanced stability and performance by refactoring legacy code and monitoring web application performance. {"\n"}
-                    • Developed NodeJS and Express-based APIs, and created books directory and email sender systems using React, Redis, and MongoDB. {"\n"}
+                    • Improved application stability and efficiency by refactoring legacy code and proactively monitoring web performance, resulting in faster load times and smoother user experiences. {"\n"}
+                    • Developed robust APIs using Node.js and Express, integrating React, Redis, and MongoDB to power complex systems like home automation and email management tools. {"\n"}
                   </Text>
                 </View>
               </View>
@@ -201,10 +205,15 @@ export default function Pdf() {
                 <Text style={styles.p_color}>
                   Bucharest, Romania
                 </Text>
+                <View style={styles.description}>
+                  <Text>
+                    • Specializing in Beauty, Product, and Fashion Photography. I deliver creative visual content for campaigns and editorial shoots, working with brands to produce highquality imagery that stands out. Experienced in both studio and on-location work, I serve clients across Bucharest. {"\n"}
+                  </Text>
+                </View>
               </View>
               <View style={styles.right_sub_sec}>
                 <Text>
-                  First Design Bucharest | Graphic Designer {"\n"}
+                  First Design | Graphic Designer {"\n"}
                   <Text style={styles.years}>
                     2013 - 2016 {"\n"}
                   </Text>
@@ -212,7 +221,7 @@ export default function Pdf() {
                 <Text style={styles.p_color}>
                   Bucharest, Romania
                 </Text>
-               <View style={styles.description}>
+               <View style={[styles.description, styles.page]}>
                 <Text>
                   • Meet with clients or the art director to determine the
                     scope of a project. {"\n"}
@@ -223,7 +232,7 @@ export default function Pdf() {
                 </Text>
                </View>
               </View>
-              <View style={styles.right_sub_sec}>
+              <View style={[styles.right_sub_sec, styles.forcePageBreak]} wrap={false}>
                 <Text>
                   National TV Broadcaster (PRO TV) | Audio Technician Assistant {"\n"}
                   <Text style={styles.years}>
@@ -241,8 +250,8 @@ export default function Pdf() {
                   </Text>
                 </View>
               </View>
-              <View style={styles.right_sub_sec} break>
-                <Text style={styles.break}>
+              <View style={styles.right_sub_sec}>
+                <Text>
                   National TV Broadcaster (Antena 1) | Technical Director {"\n"}
                   <Text style={styles.years}>
                     2009 - 2011
@@ -281,7 +290,7 @@ export default function Pdf() {
         </View>
         <Text style={styles.pageNumber} render={({ pageNumber, totalPages }) => (
         `${pageNumber} / ${totalPages}`
-      )} fixed />
+        )} fixed />
       </Page>
     </Document>
   )
