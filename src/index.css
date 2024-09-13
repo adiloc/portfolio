@@ -324,11 +324,11 @@ iframe {
 }
 
 @media (min-width: 800px) {
-  .card__box {
-    /* flex-direction: unset; */
-    /* max-width: 65%; */
+  /* .card__box {
+    flex-direction: unset;
+    max-width: 65%;
     gap: 2rem;
-  }
+  } */
   .home h3 {
     direction: rtl;
     margin-right: 250px;
